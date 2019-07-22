@@ -10,7 +10,9 @@ end
 
 def assign_rooms(speakers)
   room = 0 
-  speakers.collect do |
+  speakers.collect do |name|
+    room += 1 
+    "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 
 def printer()
