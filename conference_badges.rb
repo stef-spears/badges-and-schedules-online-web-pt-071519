@@ -15,5 +15,6 @@ def assign_rooms(speakers)
     "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 
-def printer()
+def printer(speakers)
+  
 end
